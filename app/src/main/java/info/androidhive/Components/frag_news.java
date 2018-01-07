@@ -65,7 +65,7 @@ public class frag_news extends Fragment {
 
     public List<Notification> listTestNotification() {
         List<Notification> listNews = new ArrayList<>();
-        listNews.add(new Notification("Title1", "01/01/2018", "textNotification1"));
+        listNews.add(new Notification("titre 1", "01/01/2018", "textNotification1"));
         listNews.add(new Notification("Title2", "01/01/2018", "textNotification2"));
         listNews.add(new Notification("Title3", "01/01/2018", "textNotification3"));
         listNews.add(new Notification("Title4", "01/01/2018", "textNotification4"));

@@ -64,13 +64,13 @@ public class frag_members extends Fragment {
 
     public List<Member> testListMember() {
         List<Member> listMember = new ArrayList<>();
-        listMember.add(new Member(R.drawable.ic_person, "ENSA", "Anass CHBANI1", "SASTUT"));
-        listMember.add(new Member(R.drawable.ic_person, "ENSA", "Anass CHBANI2", "SASTUT"));
-        listMember.add(new Member(R.drawable.ic_person, "ENSA", "Anass CHBANI3", "SASTUT"));
-        listMember.add(new Member(R.drawable.ic_person, "ENSA", "Anass CHBANI4", "SASTUT"));
-        listMember.add(new Member(R.drawable.ic_person, "ENSA", "Anass CHBANI5", "SASTUT"));
+        listMember.add(new Member(R.drawable.ic_person, "ENSA", "al gahi youssef", "SASTUT"));
+        listMember.add(new Member(R.drawable.ic_person, "ENSA", "agoujil saad", "SASTUT"));
+        listMember.add(new Member(R.drawable.ic_person, "ENSA", "badr chatibi ", "SASTUT"));
+        listMember.add(new Member(R.drawable.ic_person, "ENSA", "chater youssef", "SASTUT"));
+        listMember.add(new Member(R.drawable.ic_person, "ENSA", "chahoud marwane", "SASTUT"));
         listMember.add(new Member(R.drawable.ic_person, "ENSA", "Anass CHBANI6", "SASTUT"));
-        listMember.add(new Member(R.drawable.ic_person, "ENSA", "Anass CHBANI7", "SASTUT"));
+        listMember.add(new Member(R.drawable.ic_person, "ENSA", "fouziya al wardiya", "SASTUT"));
         return listMember;
     }
 }

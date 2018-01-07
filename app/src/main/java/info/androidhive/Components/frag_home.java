@@ -99,30 +99,30 @@ public class frag_home extends Fragment {
     public List<Post> testlistAllPosts() {
         List<Post> listAllPost = new ArrayList<>();
         String text = "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression";
-        listAllPost.add(new Post(R.drawable.ic_profile, "Anass1", "01/01/2018", text));
-        listAllPost.add(new Post(R.drawable.ic_profile, "Anass2", "02/01/2018", text));
-        listAllPost.add(new Post(R.drawable.ic_profile, "Anass3", "03/01/2018", text));
-        listAllPost.add(new Post(R.drawable.ic_profile, "Anass4", "04/01/2018", text));
-        listAllPost.add(new Post(R.drawable.ic_profile, "Anass5", "05/01/2018", text));
-        listAllPost.add(new Post(R.drawable.ic_profile, "Anass6", "06/01/2018", text));
+        listAllPost.add(new Post(R.drawable.ic_profile, "first test", "01/01/2018", text));
+        listAllPost.add(new Post(R.drawable.ic_profile, "second test", "02/01/2018", text));
+        listAllPost.add(new Post(R.drawable.ic_profile, "third test", "03/01/2018", text));
+        listAllPost.add(new Post(R.drawable.ic_profile, "fourth test", "04/01/2018", text));
+        listAllPost.add(new Post(R.drawable.ic_profile, "fifth test", "05/01/2018", text));
+        listAllPost.add(new Post(R.drawable.ic_profile, "sixth test ", "06/01/2018", text));
         return listAllPost;
     }
 
     public List<Post> testlistUnivPosts() {
         List<Post> listAllPost = new ArrayList<>();
         String text = "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression";
-        listAllPost.add(new Post(R.drawable.ic_profile, "Anass1", "01/01/2018", text));
-        listAllPost.add(new Post(R.drawable.ic_profile, "Anass2", "02/01/2018", text));
-        listAllPost.add(new Post(R.drawable.ic_profile, "Anass3", "03/01/2018", text));
+        listAllPost.add(new Post(R.drawable.ic_profile, "the first test", "01/01/2018", text));
+        listAllPost.add(new Post(R.drawable.ic_profile, "the second test", "02/01/2018", text));
+        listAllPost.add(new Post(R.drawable.ic_profile, "the third test", "03/01/2018", text));
         return listAllPost;
     }
 
     public List<Post> testlistLocPosts() {
         List<Post> listAllPost = new ArrayList<>();
         String text = "Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression";
-        listAllPost.add(new Post(R.drawable.ic_profile, "Anass4", "04/01/2018", text));
-        listAllPost.add(new Post(R.drawable.ic_profile, "Anass5", "05/01/2018", text));
-        listAllPost.add(new Post(R.drawable.ic_profile, "Anass6", "06/01/2018", text));
+        listAllPost.add(new Post(R.drawable.ic_profile, "just a simple txt ", "04/01/2018", text));
+        listAllPost.add(new Post(R.drawable.ic_profile, "just a way to show you every thing is working", "05/01/2018", text));
+        listAllPost.add(new Post(R.drawable.ic_profile, "another dummy txt to prove every thing is working as it should", "06/01/2018", text));
         return listAllPost;
     }
 }
